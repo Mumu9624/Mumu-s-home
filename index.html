@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mumu's Home</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background-color: #FFFAF0; /* Light yellow */
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ADD8E6; /* Light blue */
+            color: #FFF;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 2em;
+        }
+        nav {
+            background-color: #90EE90; /* Light green */
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #333;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #ADD8E6; /* Light blue */
+            color: #FFF;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .cute {
+            font-size: 1.5em;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .animal {
+            display: inline-block;
+            margin: 10px;
+            width: 100px;
+            height: 100px;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .blog-post {
+            margin: 20px 0;
+            padding: 15px;
+            background-color: #FFB6C1; /* Light pink */
+            border-radius: 10px;
+        }
+        .blog-post h3 {
+            margin: 0 0 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Welcome to Mumu's Home
+    </header>
+    <nav>
+        <a href="#blog">Blog</a>
+        <a href="#calendar">Calendar</a>
+        <a href="#weather">Weather</a>
+    </nav>
+    <section
+# Install Jekyll and Bundler gems through RubyGems
+gem install jekyll bundler
+
+# Create a new Jekyll site at ./myblog
+jekyll new myblog
+
+# Change into your new directory
+cd myblog
+
+# Build the site and make it available on a local server
+bundle exec jekyll serve
+
